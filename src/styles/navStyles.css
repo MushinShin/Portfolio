@@ -1,0 +1,15 @@
+.nav {
+  background-color: black;
+  font-size: 2rem;
+}
+
+/* CHANGE COLOR BLACK TO WHITE  */
+.nav-item > .button {
+  color: #ccc;
+  text-shadow: -2px 0 0 rgb(236, 5, 5);
+}
+
+.nav-item > .button:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
