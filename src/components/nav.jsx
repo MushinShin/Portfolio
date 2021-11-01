@@ -1,11 +1,17 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import "../styles/navStyles.css";
-import "../js/toggle.js";
 import "boxicons";
 
+// useState devuelve un array con 2 valores, 1- valor de estado 2-funcion para actualizar estado
 const Nav = () => {
+  const [expanded, setExpanded] = useState(false);
+
+  const handleClick = () => {
+    setExpanded(!expanded);
+  };
+
   return (
-    <div className="sidebar" id="sidebar">
+    <div className={`sidebar ${expanded ? "show" : ""}`} id="sidebar">
       <nav className="nav">
         <div>
           <div className="nav_logo">
@@ -13,18 +19,18 @@ const Nav = () => {
             <span className="nav_icon-text">Home</span>
           </div>
 
-          <div className="nav_toggle" id="nav-toggle">
+          <div
+            id="nav-toggle"
+            className={`nav_toggle ${expanded ? "rotate" : ""}`}
+            onClick={handleClick}
+          >
             <box-icon name="right-arrow"></box-icon>
           </div>
 
           <div className="nav_projects">
             <box-icon name="planet"></box-icon>
+            <span className="nav_icon-text">Projects</span>
           </div>
-          <ul className="nav_list">
-            <a href="#" className="nav_link">
-              <span className="nav_text">Test</span>
-            </a>
-          </ul>
         </div>
         <div className="profil">
           <div className="profil_img">
