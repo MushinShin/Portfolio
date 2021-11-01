@@ -1,25 +1,36 @@
 import React, { Component } from "react";
 import "../styles/navStyles.css";
+import "boxicons";
 
 const Nav = () => {
   return (
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link button" aria-current="page" href="#">
-          Home
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link button" href="#">
-          Proyects
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link button" href="#">
-          About Me
-        </a>
-      </li>
-    </ul>
+    <div className="sidebar" id="sidebar">
+      <nav className="nav">
+        <div>
+          <div className="nav_logo">
+            <box-icon name="home-circle"></box-icon>
+            <span className="nav_icon-text">Home</span>
+          </div>
+
+          <div className="nav_toggle" id="nav-toggle">
+            <box-icon name="right-arrow"></box-icon>
+          </div>
+
+          <div className="nav_projects">
+            <box-icon name="planet"></box-icon>
+          </div>
+          <ul className="nav_list">
+            <a href="#" className="nav_link">
+              <span className="nav_text">Test</span>
+            </a>
+          </ul>
+        </div>
+        <div className="profile_desc">
+          <p>Facundo Francia</p>
+          <a href="#">FacundoFrancia25@outlook.com</a>
+        </div>
+      </nav>
+    </div>
   );
 };
 
