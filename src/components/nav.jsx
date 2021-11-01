@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../styles/navStyles.css";
+import "../js/toggle.js";
 import "boxicons";
 
 const Nav = () => {
@@ -25,9 +26,14 @@ const Nav = () => {
             </a>
           </ul>
         </div>
-        <div className="profile_desc">
-          <p>Facundo Francia</p>
-          <a href="#">FacundoFrancia25@outlook.com</a>
+        <div className="profil">
+          <div className="profil_img">
+            <box-icon name="mail-send"></box-icon>
+          </div>
+          <div className="profile_desc">
+            <p>Facundo Francia</p>
+            <a href="#">FacundoFrancia25@outlook.com</a>
+          </div>
         </div>
       </nav>
     </div>
