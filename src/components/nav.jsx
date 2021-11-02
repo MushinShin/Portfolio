@@ -24,11 +24,11 @@ const Nav = () => {
 
           <ul className="nav_list">
             <a href="#" className="nav_link">
-              <box-icon name="home-circle"></box-icon>
+              <box-icon name="home-circle" className="nav_icon"></box-icon>
               <span className="nav_text">Home</span>
             </a>
             <a href="#" className="nav_link">
-              <box-icon name="planet"></box-icon>
+              <box-icon name="planet" className="nav_icon"></box-icon>
               <span className="nav_text">Projects</span>
             </a>
           </ul>
