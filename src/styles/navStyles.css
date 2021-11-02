@@ -34,12 +34,6 @@ a {
   overflow: hidden;
 }
 
-.nav_logo {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1.5rem;
-}
-
 .nav_icon-text {
   font-size: 1.125rem;
   font-weight: 700;
@@ -72,10 +66,16 @@ a {
   align-items: center;
   width: 100%;
   padding: 0.75rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   border-radius: 5px;
   color: #afafaf;
   transition: 0.3s;
+  text-decoration: none;
+}
+
+.nav_text {
+  font-weight: 500;
+  padding-left: 0.5rem;
 }
 
 .nav_link:hover {
@@ -86,6 +86,17 @@ a {
 .nav_link i {
   font-size: 1.5rem;
   margin-right: 1rem;
+}
+
+.profil {
+  display: flex;
+  align-items: center;
+  color: #afafaf;
+}
+
+.profil_img img {
+  margin-right: 1rem;
+  width: 40px;
 }
 
 .profile_desc a {

@@ -14,11 +14,6 @@ const Nav = () => {
     <div className={`sidebar ${expanded ? "show" : ""}`} id="sidebar">
       <nav className="nav">
         <div>
-          <div className="nav_logo">
-            <box-icon name="home-circle"></box-icon>
-            <span className="nav_icon-text">Home</span>
-          </div>
-
           <div
             id="nav-toggle"
             className={`nav_toggle ${expanded ? "rotate" : ""}`}
@@ -27,11 +22,18 @@ const Nav = () => {
             <box-icon name="right-arrow"></box-icon>
           </div>
 
-          <div className="nav_projects">
-            <box-icon name="planet"></box-icon>
-            <span className="nav_icon-text">Projects</span>
-          </div>
+          <ul className="nav_list">
+            <a href="#" className="nav_link">
+              <box-icon name="home-circle"></box-icon>
+              <span className="nav_text">Home</span>
+            </a>
+            <a href="#" className="nav_link">
+              <box-icon name="planet"></box-icon>
+              <span className="nav_text">Projects</span>
+            </a>
+          </ul>
         </div>
+
         <div className="profil">
           <div className="profil_img">
             <box-icon name="mail-send"></box-icon>
