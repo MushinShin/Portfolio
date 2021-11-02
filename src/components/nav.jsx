@@ -39,7 +39,6 @@ const Nav = () => {
             <box-icon name="mail-send"></box-icon>
           </div>
           <div className="profile_desc">
-            <p>Facundo Francia</p>
             <a href="#">FacundoFrancia25@outlook.com</a>
           </div>
         </div>

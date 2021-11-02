@@ -61,11 +61,16 @@ a {
   background-color: #575757;
 }
 
+.nav_list {
+  padding-left: 0;
+}
+
 .nav_link {
   display: flex;
   align-items: center;
   width: 100%;
   padding: 0.75rem;
+  padding-left: 0;
   margin-bottom: 0.5rem;
   border-radius: 5px;
   color: #afafaf;
@@ -92,17 +97,18 @@ a {
   display: flex;
   align-items: center;
   color: #afafaf;
+  align-items: stretch;
 }
 
-.profil_img img {
-  margin-right: 1rem;
-  width: 40px;
+.profil_img {
+  width: 30px;
 }
 
 .profile_desc a {
   color: #afafaf;
-  font-size: 0.75rem;
-  font-weight: 300;
+  font-size: 0.86rem;
+  font-weight: 500;
+  text-decoration: none;
 }
 
 .profile_desc a:hover {
