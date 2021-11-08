@@ -19,16 +19,24 @@ const Nav = () => {
             className={`nav_toggle ${expanded ? "rotate" : ""}`}
             onClick={handleClick}
           >
-            <box-icon name="right-arrow"></box-icon>
+            <box-icon name="right-arrow" color="white"></box-icon>
           </div>
 
           <ul className="nav_list">
             <a href="#" className="nav_link">
-              <box-icon name="home-circle" className="nav_icon"></box-icon>
+              <box-icon
+                name="home-circle"
+                className="nav_icon"
+                color="white"
+              ></box-icon>
               {expanded && <span className="nav_text">Home</span>}
             </a>
             <a href="#" className="nav_link">
-              <box-icon name="planet" className="nav_icon"></box-icon>
+              <box-icon
+                name="planet"
+                className="nav_icon"
+                color="white"
+              ></box-icon>
               {expanded && <span className="nav_text">Projects</span>}
             </a>
           </ul>
@@ -36,7 +44,7 @@ const Nav = () => {
 
         <div className="profil">
           <div className="profil_img">
-            <box-icon name="mail-send"></box-icon>
+            <box-icon name="mail-send" color="white"></box-icon>
           </div>
           <div className="profile_desc">
             {expanded && <a href="#">FacundoFrancia25@outlook.com</a>}
