@@ -25,11 +25,11 @@ const Nav = () => {
           <ul className="nav_list">
             <a href="#" className="nav_link">
               <box-icon name="home-circle" className="nav_icon"></box-icon>
-              <span className="nav_text">Home</span>
+              {expanded && <span className="nav_text">Home</span>}
             </a>
             <a href="#" className="nav_link">
               <box-icon name="planet" className="nav_icon"></box-icon>
-              <span className="nav_text">Projects</span>
+              {expanded && <span className="nav_text">Projects</span>}
             </a>
           </ul>
         </div>
@@ -39,7 +39,7 @@ const Nav = () => {
             <box-icon name="mail-send"></box-icon>
           </div>
           <div className="profile_desc">
-            <a href="#">FacundoFrancia25@outlook.com</a>
+            {expanded && <a href="#">FacundoFrancia25@outlook.com</a>}
           </div>
         </div>
       </nav>
