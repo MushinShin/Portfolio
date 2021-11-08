@@ -16,7 +16,7 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-  width: 75px;
+  width: 65px;
   height: 100vh;
   background-color: #1e2021;
   padding: 2rem 1.625rem 2.5rem;
@@ -118,7 +118,7 @@ a {
 }
 
 .show {
-  width: 300px;
+  width: 250px;
 }
 
 .rotate {
