@@ -5,7 +5,7 @@
 
 .block--dark {
   background: #000;
-  color: #7b858b;
+  color: #eeeeee;
 }
 
 .block--skewed-left {
@@ -18,8 +18,8 @@
   margin-bottom: 4rem;
 }
 
-.container {
-  /* margin: 0 auto; */
+.container_hero {
+  margin: 0 auto;
 }
 
 .grid {
@@ -38,7 +38,6 @@
   }
 
   .hero__content {
-    text-align: left;
     align-self: center;
   }
 }
