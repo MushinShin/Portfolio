@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { swiper } from "../";
+import { Swiper } from "swiper/react";
 
 const Project = () => {
   return (
@@ -7,7 +7,7 @@ const Project = () => {
       <div className="container">
         <h1>Projects</h1>
         <div className="projects_allItems">
-          <swiper></swiper>
+          <Swiper></Swiper>
         </div>
       </div>
     </div>
