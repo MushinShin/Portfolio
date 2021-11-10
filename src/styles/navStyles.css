@@ -41,10 +41,9 @@ a {
   right: -1rem;
   width: 24px;
   height: 24px;
-  background-color: #000;
+  background-color: rgb(255, 255, 255);
   border-radius: 5px;
   font-size: 0.875rem;
-  border-color: solid 1px white;
   display: flex;
   justify-content: center;
   align-items: center;

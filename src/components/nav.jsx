@@ -19,7 +19,7 @@ const Nav = () => {
             className={`nav_toggle ${expanded ? "rotate" : ""}`}
             onClick={handleClick}
           >
-            <box-icon name="right-arrow" color="white"></box-icon>
+            <box-icon name="right-arrow" color="black"></box-icon>
           </div>
 
           <ul className="nav_list">
