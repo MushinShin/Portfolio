@@ -15,6 +15,7 @@ const Project = () => {
         <h1>Projects</h1>
         <div className="projects_allItems">
           <Swiper
+            className="swiperItem"
             spaceBetween={30}
             slidesPerView={1}
             navigation
@@ -33,10 +34,15 @@ const Project = () => {
             }}
           >
             {projects.map((project, index) => {
-              if (index >= 5) return;
+              if (index >= 3) return;
               return (
                 <SwiperSlide key={project.id}>
-                  <ProjectItem />
+                  <ProjectItem
+                    title={project.name}
+                    desc={project.desc}
+                    img={project.img}
+                    link={project.link}
+                  />
                 </SwiperSlide>
               );
             })}

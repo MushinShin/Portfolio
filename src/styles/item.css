@@ -16,6 +16,16 @@
   background-color: grey;
   padding: 1rem;
   border-radius: 12px;
+  min-height: 160px;
+}
+
+.projectItem_title {
+  text-decoration: none;
+  color: aqua;
+}
+
+.projectItem_link {
+  text-decoration: none;
 }
 
 .projectItem_desc {
