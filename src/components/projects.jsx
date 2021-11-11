@@ -12,7 +12,7 @@ const Project = () => {
   return (
     <div className="projectSectionStyle">
       <div className="container">
-        <h1>Projects</h1>
+        <h1 className="Project-Section">Projects</h1>
         <div className="projects_allItems">
           <Swiper
             className="swiperItem"

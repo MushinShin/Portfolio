@@ -13,7 +13,7 @@
 
 .projectItem_info {
   margin-top: 1rem;
-  background-color: grey;
+  background-color: rgb(24, 26, 27);
   padding: 1rem;
   border-radius: 12px;
   min-height: 160px;
@@ -21,7 +21,7 @@
 
 .projectItem_title {
   text-decoration: none;
-  color: aqua;
+  color: white;
 }
 
 .projectItem_link {
@@ -31,6 +31,7 @@
 .projectItem_desc {
   font-size: 1.6rem;
   margin-top: 1rem;
+  color: rgb(212, 203, 203);
 }
 
 @media only screen and (max-width: 768px) {
