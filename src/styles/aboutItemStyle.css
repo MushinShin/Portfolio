@@ -1,0 +1,43 @@
+.aboutItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 3rem;
+}
+
+.title {
+  font-size: 2.4rem;
+}
+
+.items {
+  display: flex;
+  gap: 1.5rem;
+  position: absolute;
+  left: 20rem;
+}
+
+.item {
+  background-color: rgb(22, 22, 22);
+  padding: 1rem;
+  border-radius: 8px;
+  /* font-size: 1rem; */
+}
+
+.about_info_items {
+  margin-top: 15rem;
+}
+
+/* @media only screen and (max-width: 768px) {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  
+  .items {
+    position: initial;
+    gap: 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+} */

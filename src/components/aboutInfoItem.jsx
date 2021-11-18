@@ -1,8 +1,12 @@
 import React, { Component } from "react";
+import "../styles/aboutItemStyle.css";
 
-const InfoItem = ({ title = "this is title", items = ["HTML", "CSS"] }) => {
+const InfoItem = ({
+  title = "this is title",
+  items = ["HTML", "CSS", "JS", "TYPESCRIPT"],
+}) => {
   return (
-    <div>
+    <div className="aboutItem">
       <h1 className="title">{title}</h1>
       <div className="items">
         {items.map((item, index) => (
