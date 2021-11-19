@@ -104,6 +104,7 @@ a {
 
 .profil_img {
   width: 30px;
+  cursor: pointer;
 }
 
 .profile_desc a {

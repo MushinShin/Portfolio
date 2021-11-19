@@ -3,8 +3,8 @@
   padding: var(--padding-vertical) 2rem;
 }
 
+/* Background Color */
 .block--dark {
-  background: #000;
   color: #eeeeee;
 }
 
@@ -51,6 +51,7 @@
   color: #b9c3cf;
   letter-spacing: 1px;
   margin: 2rem 0 5rem;
+  font-family: "Comforter Brush", cursive;
 }
 
 .hero__image {

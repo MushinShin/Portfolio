@@ -1,5 +1,5 @@
 .projectSectionStyle {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 
 .projects_allItems {
@@ -22,7 +22,7 @@
   z-index: 10;
   right: 60px;
   left: auto;
-  top: 0;
+  top: 0 !important;
   transform: translateY(50%);
   color: grey;
   border-radius: 8px;
@@ -53,5 +53,4 @@
 
 .Project-Section {
   text-align: center;
-  color: white;
 }
