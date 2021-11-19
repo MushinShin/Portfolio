@@ -39,6 +39,14 @@ const Nav = () => {
               ></box-icon>
               {expanded && <span className="nav_text">Projects</span>}
             </a>
+            <a href="#" className="nav_link">
+              <box-icon
+                name="user-circle"
+                className="nav_icon"
+                color="white"
+              ></box-icon>
+              {expanded && <span className="nav_text">About Me</span>}
+            </a>
           </ul>
         </div>
 
