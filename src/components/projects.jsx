@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation } from "swiper";
-import { Fade } from "react-fade";
+import Fade from "react-reveal/Fade";
 import projects from "../Assets/projects";
 import ProjectItem from "./projectItem";
 import "../styles/projects.css";
@@ -11,7 +11,7 @@ SwiperCore.use([Navigation]);
 
 const Project = () => {
   return (
-    <Fade>
+    <Fade Top>
       <div className="projectSectionStyle">
         <div className="container">
           <h1 className="Project-Section">Projects</h1>
