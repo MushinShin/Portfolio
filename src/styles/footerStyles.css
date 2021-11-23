@@ -1,0 +1,10 @@
+.containerFooter {
+  padding-top: 4rem;
+  margin-top: 10rem;
+  background-color: blanchedalmond;
+  display: flex;
+  gap: 3rem;
+}
+
+.footer_col1 {
+}
